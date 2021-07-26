@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="text-center">Pier 1</h1>
+        <h1 class="text-center">Pier</h1>
         <h3 class="text-center pt-3 mb-3 ">Please Select All Platforms You Have Access Too</h3>
         <div class="form-row justify-content-left py-2 bg-info">
             <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">All Staff</h4>
