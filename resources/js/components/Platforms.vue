@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="nav nav-pills nav-fill nav-tabs" role="tablist">
+        <nav class="nav nav-pills nav-fill nav-tabs"  role="tablist">
             <router-link to="/platforms/dressbarn" class="nav-item nav-link active" role="tab" data-toggle="tab" aria-controls="dressbarn" aria-select="true">Dressbarn</router-link>
             <router-link to="/platforms/pier1" class="nav-item nav-link" role="tab" data-toggle="tab" aria-controls="pier1" aria-select="true">Pier 1</router-link>
             <router-link to="/platforms/steinmart" class="nav-item nav-link" role="tab" data-toggle="tab" aria-controls="steinmart" aria-select="true">SteinMart</router-link>
@@ -12,7 +12,7 @@
             
         </nav>
             
-        <router-view></router-view>
+        <router-view :user=user ></router-view>
            
         
   </div>
@@ -20,7 +20,9 @@
 
 <script>
 export default {
-    name: 'Platforms'
+    props: ['user'],
+    name: 'Platforms',
+    
 }
 </script>
 

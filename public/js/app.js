@@ -1952,7 +1952,613 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: ['user'],
   name: 'Platforms'
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlatformsForm.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlatformsForm.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  //name: PlatformsForm,
+  props: ['user', 'brand'],
+  data: function data() {
+    return {
+      isDisplayed: false,
+      formDisabled: false,
+      editMode: false,
+      platforms: {},
+      form: new Form({
+        id: '',
+        onePassword: '',
+        dressbarnEmail: '',
+        dressbarnSlack: '',
+        divy: '',
+        paycom: '',
+        quadpay: '',
+        quickbooks: '',
+        riskified: '',
+        stripe: '',
+        facebookBusinessManager: '',
+        facebookPageAdmin: '',
+        googleAnalytics: '',
+        googleAds: '',
+        googleAdSense: '',
+        googleMerchantCenter: '',
+        googleMyBusiness: '',
+        googlePostmasterTools: '',
+        googleSearchConsole: '',
+        googleTagManager: '',
+        bingSearchConsole: '',
+        microsoftPostmasterTools: '',
+        microsoftPowerbi: '',
+        microsoftAdvertising: '',
+        automizely: '',
+        crazyegg: '',
+        findify: '',
+        hyros: '',
+        kickbox: '',
+        taboola: '',
+        taggbox: '',
+        tapcart: '',
+        attentive: '',
+        aircall: '',
+        docusign: '',
+        dropbox: '',
+        gorgias: '',
+        klaviyo: '',
+        monday: '',
+        revcascade: '',
+        shiphero: '',
+        shopify: '',
+        todoist: '',
+        tradefull: '',
+        appleDeveloperConsole: '',
+        database: '',
+        github: '',
+        googleDeveloperConsole: '',
+        jira: '',
+        octopus: '',
+        server: '',
+        sendgrid: '',
+        twilio: '',
+        amazonBrandRegistry: '',
+        amazonSellerCentral: '',
+        ebay: '',
+        walmart: '',
+        instagram: '',
+        pinterest: '',
+        rakuten: '',
+        twitter: '',
+        youtube: '',
+        filevista: '',
+        salesforce: '',
+        upwork: ''
+      })
+    };
+  },
+  created: function created() {
+    console.log(this.brand);
+    this.loadUsersPlatforms();
+    console.log(this.form.errors);
+  },
+  watch: {},
+  computed: {},
+  methods: {
+    loadUsersPlatforms: function loadUsersPlatforms() {
+      var _this = this;
+
+      axios.get('/api/platform/' + this.brand + '/' + this.user.id).then(function (data) {
+        _this.form.id = data.data.id;
+        _this.form.onePassword = data.data.onePassword;
+        _this.form.dressbarnEmail = data.data.dressbarnEmail;
+        _this.form.dressbarnSlack = data.data.dressbarnSlack;
+        _this.form.divvy = data.data.divvy;
+        _this.form.paycom = data.data.paycom;
+        _this.form.quadpay = data.data.quadpay;
+        _this.form.quickbooks = data.data.quickbooks;
+        _this.form.riskified = data.data.riskified;
+        _this.form.stripe = data.data.stripe;
+        _this.form.facebookBusinessManager = data.data.facebookBusinessManager;
+        _this.form.facebookPageAdmin = data.data.facebookPageAdmin;
+        _this.form.googleAnalytics = data.data.googleAnalytics;
+        _this.form.googleAds = data.data.googleAds;
+        _this.form.googleAdSense = data.data.googleAdSense;
+        _this.form.googleMerchantCenter = data.data.googleMerchantCenter;
+        _this.form.googleMyBusiness = data.data.googleMyBusiness;
+        _this.form.googlePostmasterTools = data.data.googlePostmasterTools;
+        _this.form.googleSearchConsole = data.data.googleSearchConsole;
+        _this.form.googleTagManager = data.data.googleTagManager;
+        _this.form.bingSearchConsole = data.data.bingSearchConsole;
+        _this.form.microsoftPostmasterTools = data.data.microsoftPostmasterTools;
+        _this.form.microsoftPowerbi = data.data.microsoftPowerbi;
+        _this.form.microsoftAdvertising = data.data.microsoftAdvertising;
+        _this.form.automizely = data.data.automizely;
+        _this.form.crazyegg = data.data.crazyegg;
+        _this.form.findify = data.data.findify;
+        _this.form.hyros = data.data.hyros;
+        _this.form.kickbox = data.data.kickbox;
+        _this.form.taboola = data.data.taboola;
+        _this.form.taggbox = data.data.taggbox;
+        _this.form.tapcart = data.data.tapcart;
+        _this.form.attentive = data.data.attentive;
+        _this.form.aircall = data.data.aircall;
+        _this.form.docusign = data.data.docusign;
+        _this.form.dropbox = data.data.dropbox;
+        _this.form.gorgias = data.data.gorgias;
+        _this.form.klaviyo = data.data.klaviyo;
+        _this.form.monday = data.data.monday;
+        _this.form.revcascade = data.data.revcascade;
+        _this.form.shiphero = data.data.shiphero;
+        _this.form.shopify = data.data.shopify;
+        _this.form.todoist = data.data.todoist;
+        _this.form.tradefull = data.data.tradefull;
+        _this.form.appleDeveloperConsole = data.data.appleDeveloperConsole;
+        _this.form.database = data.data.database;
+        _this.form.github = data.data.github;
+        _this.form.googleDeveloperConsole = data.data.googleDeveloperConsole;
+        _this.form.jira = data.data.jira;
+        _this.form.octopus = data.data.octopus;
+        _this.form.server = data.data.server;
+        _this.form.sendgrid = data.data.sendgrid;
+        _this.form.twilio = data.data.twilio;
+        _this.form.amazonBrandRegistry = data.data.amazonBrandRegistry;
+        _this.form.amazonSellerCentral = data.data.amazonSellerCentral;
+        _this.form.ebay = data.data.ebay;
+        _this.form.walmart = data.data.walmart;
+        _this.form.instagram = data.data.instagram;
+        _this.form.pinterest = data.data.pinterest;
+        _this.form.rakuten = data.data.rakuten;
+        _this.form.twitter = data.data.twitter;
+        _this.form.youtube = data.data.youtube;
+        _this.form.filevista = data.data.filevista;
+        _this.form.salesforce = data.data.salesforce;
+        _this.form.upwork = data.data.upwork;
+
+        if (isNaN(_this.form.id) == false) {
+          console.log("hello");
+          _this.formDisabled = true;
+          _this.isDisplayed = true;
+        }
+      });
+    },
+    uploadUsersPlatforms: function uploadUsersPlatforms() {
+      var _this2 = this;
+
+      if (this.editMode == false) {
+        this.$Progress.start();
+        this.form.post('/api/platform/' + this.brand + '/' + this.user.id).then(function () {
+          //Fire.$emit('afterUserCreated');
+          toast.fire({
+            icon: 'success',
+            title: 'Platforms updated successfully'
+          });
+
+          _this2.$Progress.finish(); //these are currently not updating without a browser reload
+          // this.formDisabled == true;
+          // this.isDisplayed == true;
+
+        })["catch"](function () {
+          _this2.$Progress.fail();
+        });
+      } else {
+        this.$Progress.start();
+        this.form.put('/api/platform/' + this.brand + '/' + this.user.id).then(function () {
+          console.log("put sent");
+          toast.fire({
+            icon: 'success',
+            title: 'Platforms updated successfully'
+          });
+        })["catch"](function () {
+          _this2.$Progress.fail();
+        });
+      }
+    },
+    editPlatforms: function editPlatforms() {
+      this.formDisabled = false;
+      this.editMode = true;
+    }
+  }
 });
 
 /***/ }),
@@ -2370,6 +2976,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _PlatformsForm_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../PlatformsForm.vue */ "./resources/js/components/PlatformsForm.vue");
 //
 //
 //
@@ -2382,352 +2989,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['user'],
-  data: function data() {
-    return {
-      form: new Form({
-        id: '',
-        onePassword: '',
-        dressbarnEmail: '',
-        dressbarnSlack: ''
-      })
-    };
-  },
-  created: function created() {
-    console.log(this.user);
-  },
-  methods: {
-    uploadUsersPlatforms: function uploadUsersPlatforms() {
-      var _this = this;
-
-      this.$Progress.start();
-      this.form.post('/api/platform/' + this.form.id).then(function () {
-        //Fire.$emit('afterUserCreated');
-        toast.fire({
-          icon: 'success',
-          title: 'Platforms updated successfully'
-        });
-
-        _this.$Progress.finish();
-      })["catch"](function () {
-        _this.$Progress.fail();
-      });
-    }
+  components: {
+    "platform-form": _PlatformsForm_vue__WEBPACK_IMPORTED_MODULE_0__.default
   }
 });
 
@@ -5271,7 +5537,8 @@ vue__WEBPACK_IMPORTED_MODULE_15__.default.component('Dashboard', __webpack_requi
 vue__WEBPACK_IMPORTED_MODULE_15__.default.component('Users', __webpack_require__(/*! ./components/Users.vue */ "./resources/js/components/Users.vue").default);
 vue__WEBPACK_IMPORTED_MODULE_15__.default.component('Platforms', __webpack_require__(/*! ./components/Platforms.vue */ "./resources/js/components/Platforms.vue").default);
 vue__WEBPACK_IMPORTED_MODULE_15__.default.component('DressbarnPlatforms', __webpack_require__(/*! ./components/platforms/DressbarnPlatforms.vue */ "./resources/js/components/platforms/DressbarnPlatforms.vue").default);
-vue__WEBPACK_IMPORTED_MODULE_15__.default.component('Posts', __webpack_require__(/*! ./components/Posts.vue */ "./resources/js/components/Posts.vue").default);
+vue__WEBPACK_IMPORTED_MODULE_15__.default.component('Posts', __webpack_require__(/*! ./components/Posts.vue */ "./resources/js/components/Posts.vue").default); //Vue.component('PlatformsForm', require('./components/PlatformsForm.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -45205,6 +45472,45 @@ component.options.__file = "resources/js/components/Platforms.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/PlatformsForm.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/PlatformsForm.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _PlatformsForm_vue_vue_type_template_id_3353d0e9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PlatformsForm.vue?vue&type=template&id=3353d0e9& */ "./resources/js/components/PlatformsForm.vue?vue&type=template&id=3353d0e9&");
+/* harmony import */ var _PlatformsForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PlatformsForm.vue?vue&type=script&lang=js& */ "./resources/js/components/PlatformsForm.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _PlatformsForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _PlatformsForm_vue_vue_type_template_id_3353d0e9___WEBPACK_IMPORTED_MODULE_0__.render,
+  _PlatformsForm_vue_vue_type_template_id_3353d0e9___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/PlatformsForm.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/Posts.vue":
 /*!*******************************************!*\
   !*** ./resources/js/components/Posts.vue ***!
@@ -45684,6 +45990,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/PlatformsForm.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/PlatformsForm.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PlatformsForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlatformsForm.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlatformsForm.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PlatformsForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/Posts.vue?vue&type=script&lang=js&":
 /*!********************************************************************!*\
   !*** ./resources/js/components/Posts.vue?vue&type=script&lang=js& ***!
@@ -46072,6 +46394,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Platforms_vue_vue_type_template_id_4ed82085___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Platforms_vue_vue_type_template_id_4ed82085___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Platforms.vue?vue&type=template&id=4ed82085& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Platforms.vue?vue&type=template&id=4ed82085&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/PlatformsForm.vue?vue&type=template&id=3353d0e9&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/PlatformsForm.vue?vue&type=template&id=3353d0e9& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PlatformsForm_vue_vue_type_template_id_3353d0e9___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PlatformsForm_vue_vue_type_template_id_3353d0e9___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PlatformsForm_vue_vue_type_template_id_3353d0e9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlatformsForm.vue?vue&type=template&id=3353d0e9& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlatformsForm.vue?vue&type=template&id=3353d0e9&");
 
 
 /***/ }),
@@ -46793,10 +47132,4104 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("router-view")
+      _c("router-view", { attrs: { user: _vm.user } })
     ],
     1
   )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlatformsForm.vue?vue&type=template&id=3353d0e9&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlatformsForm.vue?vue&type=template&id=3353d0e9& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c(
+      "button",
+      {
+        staticClass: "col-1btn btn-danger px-4 my-2",
+        style: { display: _vm.isDisplayed ? "block" : "none" },
+        attrs: { type: "button" },
+        on: { click: _vm.editPlatforms }
+      },
+      [_vm._v("Edit")]
+    ),
+    _vm._v(" "),
+    _c(
+      "form",
+      {
+        on: {
+          submit: function($event) {
+            $event.preventDefault()
+            return _vm.uploadUsersPlatforms()
+          }
+        }
+      },
+      [
+        _c("fieldset", { attrs: { disabled: _vm.formDisabled } }, [
+          _c(
+            "div",
+            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            [
+              _c(
+                "h4",
+                { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
+                [_vm._v("All Staff")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-10" }, [
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline " },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.onePassword,
+                          expression: "form.onePassword"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.onePassword)
+                          ? _vm._i(_vm.form.onePassword, null) > -1
+                          : _vm.form.onePassword
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.onePassword,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "onePassword",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "onePassword",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "onePassword", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("1Password")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("onePassword")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("onePassword")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.dressbarnEmail,
+                        expression: "form.dressbarnEmail"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.dressbarnEmail)
+                        ? _vm._i(_vm.form.dressbarnEmail, null) > -1
+                        : _vm.form.dressbarnEmail
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.dressbarnEmail,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "dressbarnEmail",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "dressbarnEmail",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "dressbarnEmail", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Gmail Email")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("dressbarnEmail")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("dressbarnEmail")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.dressbarnSlack,
+                          expression: "form.dressbarnSlack"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.dressbarnSlack)
+                          ? _vm._i(_vm.form.dressbarnSlack, null) > -1
+                          : _vm.form.dressbarnSlack
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.dressbarnSlack,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "dressbarnSlack",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "dressbarnSlack",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "dressbarnSlack", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Slack")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("dressbarnSlack")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("dressbarnSlack")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-row justify-content-left py-2" }, [
+            _c("h4", { staticClass: "pr-3 col-2 font-weight-bold  pl-2" }, [
+              _vm._v("Accounting")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-10" }, [
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.divvy,
+                        expression: "form.divvy"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.divvy)
+                        ? _vm._i(_vm.form.divvy, null) > -1
+                        : _vm.form.divvy
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.divvy,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "divvy", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "divvy",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "divvy", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Divvy")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("divvy")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("divvy"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.paycom,
+                      expression: "form.paycom"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.paycom)
+                      ? _vm._i(_vm.form.paycom, null) > -1
+                      : _vm.form.paycom
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.paycom,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "paycom", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "paycom",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "paycom", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Paycom")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("paycom")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("paycom"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.quadpay,
+                        expression: "form.quadpay"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.quadpay)
+                        ? _vm._i(_vm.form.quadpay, null) > -1
+                        : _vm.form.quadpay
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.quadpay,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "quadpay", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "quadpay",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "quadpay", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Quadpay")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("quadpay")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("quadpay"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.quickbooks,
+                        expression: "form.quickbooks"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.quickbooks)
+                        ? _vm._i(_vm.form.quickbooks, null) > -1
+                        : _vm.form.quickbooks
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.quickbooks,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "quickbooks",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "quickbooks",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "quickbooks", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Quickbooks")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("quickbooks")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("quickbooks"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.riskified,
+                      expression: "form.riskified"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.riskified)
+                      ? _vm._i(_vm.form.riskified, null) > -1
+                      : _vm.form.riskified
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.riskified,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "riskified", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "riskified",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "riskified", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Riskified")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("riskified")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("riskified"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.stripe,
+                        expression: "form.stripe"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.stripe)
+                        ? _vm._i(_vm.form.stripe, null) > -1
+                        : _vm.form.stripe
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.stripe,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "stripe", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "stripe",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "stripe", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Stripe")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("stripe")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("stripe"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            [
+              _c(
+                "h4",
+                { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
+                [_vm._v("Facebook")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col=10" }, [
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.facebookBusinessManager,
+                        expression: "form.facebookBusinessManager"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.facebookBusinessManager)
+                        ? _vm._i(_vm.form.facebookBusinessManager, null) > -1
+                        : _vm.form.facebookBusinessManager
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.facebookBusinessManager,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "facebookBusinessManager",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "facebookBusinessManager",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "facebookBusinessManager", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Facebook Business Manager")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("facebookBusinessManager")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("facebookBusinessManager")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.facebookPageAdmin,
+                          expression: "form.facebookPageAdmin"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.facebookPageAdmin)
+                          ? _vm._i(_vm.form.facebookPageAdmin, null) > -1
+                          : _vm.form.facebookPageAdmin
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.facebookPageAdmin,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "facebookPageAdmin",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "facebookPageAdmin",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "facebookPageAdmin", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Facebook Page Admin")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("facebookPageAdmin")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("facebookPageAdmin")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-row justify-content-left py-2" }, [
+            _c("h4", { staticClass: "pr-3 col-2 font-weight-bold pl-2" }, [
+              _vm._v("Google")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-10" }, [
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.googleAnalytics,
+                        expression: "form.googleAnalytics"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.googleAnalytics)
+                        ? _vm._i(_vm.form.googleAnalytics, null) > -1
+                        : _vm.form.googleAnalytics
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.googleAnalytics,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleAnalytics",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleAnalytics",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "googleAnalytics", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Google Analytics")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("googleAnalytics")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("googleAnalytics")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.googleAds,
+                      expression: "form.googleAds"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.googleAds)
+                      ? _vm._i(_vm.form.googleAds, null) > -1
+                      : _vm.form.googleAds
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.googleAds,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "googleAds", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "googleAds",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "googleAds", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Google Ads")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("googleAds")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("googleAds"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.googleAdSense,
+                        expression: "form.googleAdSense"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.googleAdSense)
+                        ? _vm._i(_vm.form.googleAdSense, null) > -1
+                        : _vm.form.googleAdSense
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.googleAdSense,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleAdSense",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleAdSense",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "googleAdSense", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Google Ad Sense")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("googleAdSense")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("googleAdSense")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.googleMerchantCenter,
+                        expression: "form.googleMerchantCenter"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.googleMerchantCenter)
+                        ? _vm._i(_vm.form.googleMerchantCenter, null) > -1
+                        : _vm.form.googleMerchantCenter
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.googleMerchantCenter,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleMerchantCenter",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleMerchantCenter",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "googleMerchantCenter", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Google Merchant Center")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("googleMerchantCenter")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("googleMerchantCenter")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.googleMyBusiness,
+                      expression: "form.googleMyBusiness"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.googleMyBusiness)
+                      ? _vm._i(_vm.form.googleMyBusiness, null) > -1
+                      : _vm.form.googleMyBusiness
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.googleMyBusiness,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(
+                              _vm.form,
+                              "googleMyBusiness",
+                              $$a.concat([$$v])
+                            )
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "googleMyBusiness",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "googleMyBusiness", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Google My Business")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("googleMyBusiness")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(
+                          _vm.form.errors.get("googleMyBusiness")
+                        )
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.googlePostmasterTools,
+                        expression: "form.googlePostmasterTools"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.googlePostmasterTools)
+                        ? _vm._i(_vm.form.googlePostmasterTools, null) > -1
+                        : _vm.form.googlePostmasterTools
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.googlePostmasterTools,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googlePostmasterTools",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googlePostmasterTools",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "googlePostmasterTools", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Google Postmaster Tools")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("googlePostmasterTools")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("googlePostmasterTools")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.googleSearchConsole,
+                      expression: "form.googleSearchConsole"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.googleSearchConsole)
+                      ? _vm._i(_vm.form.googleSearchConsole, null) > -1
+                      : _vm.form.googleSearchConsole
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.googleSearchConsole,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(
+                              _vm.form,
+                              "googleSearchConsole",
+                              $$a.concat([$$v])
+                            )
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "googleSearchConsole",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "googleSearchConsole", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Google Search Console")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("googleSearchConsole")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(
+                          _vm.form.errors.get("googleSearchConsole")
+                        )
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.googleTagManager,
+                        expression: "form.googleTagManager"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.googleTagManager)
+                        ? _vm._i(_vm.form.googleTagManager, null) > -1
+                        : _vm.form.googleTagManager
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.googleTagManager,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleTagManager",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleTagManager",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "googleTagManager", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Google Tag Manager")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("googleTagManager")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("googleTagManager")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            [
+              _c(
+                "h4",
+                { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
+                [_vm._v("Microsoft")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-10" }, [
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline " },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.bingSearchConsole,
+                          expression: "form.bingSearchConsole"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.bingSearchConsole)
+                          ? _vm._i(_vm.form.bingSearchConsole, null) > -1
+                          : _vm.form.bingSearchConsole
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.bingSearchConsole,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "bingSearchConsole",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "bingSearchConsole",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "bingSearchConsole", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Bing Search Console")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("bingSearchConsole")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("bingSearchConsole")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.microsoftPostmasterTools,
+                        expression: "form.microsoftPostmasterTools"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.microsoftPostmasterTools)
+                        ? _vm._i(_vm.form.microsoftPostmasterTools, null) > -1
+                        : _vm.form.microsoftPostmasterTools
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.microsoftPostmasterTools,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "microsoftPostmasterTools",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "microsoftPostmasterTools",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "microsoftPostmasterTools", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Microsoft Postmaster Tools")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("microsoftPostmasterTools")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("microsoftPostmasterTools")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.microsoftPowerbi,
+                          expression: "form.microsoftPowerbi"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.microsoftPowerbi)
+                          ? _vm._i(_vm.form.microsoftPowerbi, null) > -1
+                          : _vm.form.microsoftPowerbi
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.microsoftPowerbi,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "microsoftPowerbi",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "microsoftPowerbi",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "microsoftPowerbi", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Microsoft Powerbi")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("microsoftPowerbi")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("microsoftPowerbi")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline " },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.microsoftAdvertising,
+                          expression: "form.microsoftAdvertising"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.microsoftAdvertising)
+                          ? _vm._i(_vm.form.microsoftAdvertising, null) > -1
+                          : _vm.form.microsoftAdvertising
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.microsoftAdvertising,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "microsoftAdvertising",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "microsoftAdvertising",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "microsoftAdvertising", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Microsoft Advertising")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("microsoftAdvertising")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("microsoftAdvertising")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-row justify-content-left py-2" }, [
+            _c("h4", { staticClass: "pr-3 col-2 font-weight-bold pl-2" }, [
+              _vm._v("Misc")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-10" }, [
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.automizely,
+                        expression: "form.automizely"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.automizely)
+                        ? _vm._i(_vm.form.automizely, null) > -1
+                        : _vm.form.automizely
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.automizely,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "automizely",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "automizely",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "automizely", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Automizely")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("automizely")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("automizely"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.crazyegg,
+                      expression: "form.crazyegg"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.crazyegg)
+                      ? _vm._i(_vm.form.crazyegg, null) > -1
+                      : _vm.form.crazyegg
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.crazyegg,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "crazyegg", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "crazyegg",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "crazyegg", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Crazyegg")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("crazyegg")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("crazyegg"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.findify,
+                        expression: "form.findify"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.findify)
+                        ? _vm._i(_vm.form.findify, null) > -1
+                        : _vm.form.findify
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.findify,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "findify", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "findify",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "findify", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Findify")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("findify")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("findify"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.hyros,
+                        expression: "form.hyros"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.hyros)
+                        ? _vm._i(_vm.form.hyros, null) > -1
+                        : _vm.form.hyros
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.hyros,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "hyros", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "hyros",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "hyros", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Hyros")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("hyros")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("hyros"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.kickbox,
+                      expression: "form.kickbox"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.kickbox)
+                      ? _vm._i(_vm.form.kickbox, null) > -1
+                      : _vm.form.kickbox
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.kickbox,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "kickbox", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "kickbox",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "kickbox", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Kickbox")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("kickbox")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("kickbox"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.taboola,
+                        expression: "form.taboola"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.taboola)
+                        ? _vm._i(_vm.form.taboola, null) > -1
+                        : _vm.form.taboola
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.taboola,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "taboola", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "taboola",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "taboola", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Taboola")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("taboola")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("taboola"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.tagboxx,
+                      expression: "form.tagboxx"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.tagboxx)
+                      ? _vm._i(_vm.form.tagboxx, null) > -1
+                      : _vm.form.tagboxx
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.tagboxx,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "tagboxx", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "tagboxx",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "tagboxx", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Taggbox")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("tagboxx")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("tagboxx"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.tapcart,
+                        expression: "form.tapcart"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.tapcart)
+                        ? _vm._i(_vm.form.tapcart, null) > -1
+                        : _vm.form.tapcart
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.tapcart,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "tapcart", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "tapcart",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "tapcart", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Tapcart")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("tapcart")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("tapcart"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            [
+              _c(
+                "h4",
+                { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
+                [_vm._v("Operations")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-10" }, [
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline " },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.attentive,
+                          expression: "form.attentive"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.attentive)
+                          ? _vm._i(_vm.form.attentive, null) > -1
+                          : _vm.form.attentive
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.attentive,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "attentive",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "attentive",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "attentive", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Attentive")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("attentive")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("attentive"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.aircall,
+                        expression: "form.aircall"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.aircall)
+                        ? _vm._i(_vm.form.aircall, null) > -1
+                        : _vm.form.aircall
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.aircall,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "aircall", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "aircall",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "aircall", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Aircall")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("aircall")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("aircall"))
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.docusign,
+                          expression: "form.docusign"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.docusign)
+                          ? _vm._i(_vm.form.docusign, null) > -1
+                          : _vm.form.docusign
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.docusign,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "docusign",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "docusign",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "docusign", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Docusign")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("docusign")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("docusign"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline " },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.dropbox,
+                          expression: "form.dropbox"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.dropbox)
+                          ? _vm._i(_vm.form.dropbox, null) > -1
+                          : _vm.form.dropbox
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.dropbox,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(_vm.form, "dropbox", $$a.concat([$$v]))
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "dropbox",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "dropbox", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Dropbox")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("dropbox")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("dropbox"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.gorgias,
+                        expression: "form.gorgias"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.gorgias)
+                        ? _vm._i(_vm.form.gorgias, null) > -1
+                        : _vm.form.gorgias
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.gorgias,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "gorgias", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "gorgias",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "gorgias", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Gorgias")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("gorgias")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("gorgias"))
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.klaviyo,
+                          expression: "form.klaviyo"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.klaviyo)
+                          ? _vm._i(_vm.form.klaviyo, null) > -1
+                          : _vm.form.klaviyo
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.klaviyo,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(_vm.form, "klaviyo", $$a.concat([$$v]))
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "klaviyo",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "klaviyo", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Klaviyo")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("klaviyo")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("klaviyo"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.monday,
+                        expression: "form.monday"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.monday)
+                        ? _vm._i(_vm.form.monday, null) > -1
+                        : _vm.form.monday
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.monday,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "monday", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "monday",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "monday", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Monday")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("monday")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("monday"))
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.revcascade,
+                          expression: "form.revcascade"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.revcascade)
+                          ? _vm._i(_vm.form.revcascade, null) > -1
+                          : _vm.form.revcascade
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.revcascade,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "revcascade",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "revcascade",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "revcascade", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Revcascade")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("revcascade")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("revcascade"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.shiphero,
+                        expression: "form.shiphero"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.shiphero)
+                        ? _vm._i(_vm.form.shiphero, null) > -1
+                        : _vm.form.shiphero
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.shiphero,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "shiphero", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "shiphero",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "shiphero", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Shiphero")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("shiphero")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("shiphero"))
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.shopify,
+                          expression: "form.shopify"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.shopify)
+                          ? _vm._i(_vm.form.shopify, null) > -1
+                          : _vm.form.shopify
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.shopify,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(_vm.form, "shopify", $$a.concat([$$v]))
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "shopify",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "shopify", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Shopify")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("shopify")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("shopify"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.todoist,
+                        expression: "form.todoist"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.todoist)
+                        ? _vm._i(_vm.form.todoist, null) > -1
+                        : _vm.form.todoist
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.todoist,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "todoist", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "todoist",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "todoist", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Todoist")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("todoist")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("todoist"))
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.tradefull,
+                          expression: "form.tradefull"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.tradefull)
+                          ? _vm._i(_vm.form.tradefull, null) > -1
+                          : _vm.form.tradefull
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.tradefull,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "tradefull",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "tradefull",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "tradefull", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Tradefull")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("tradefull")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("tradefull"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-row justify-content-left py-2" }, [
+            _c("h4", { staticClass: "pr-3 col-2 font-weight-bold pl-2" }, [
+              _vm._v("Programmers")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-10" }, [
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.appleDeveloperConsole,
+                        expression: "form.appleDeveloperConsole"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.appleDeveloperConsole)
+                        ? _vm._i(_vm.form.appleDeveloperConsole, null) > -1
+                        : _vm.form.appleDeveloperConsole
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.appleDeveloperConsole,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "appleDeveloperConsole",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "appleDeveloperConsole",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "appleDeveloperConsole", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Apple Developer Console")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("appleDeveloperConsole")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("appleDeveloperConsole")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.database,
+                      expression: "form.database"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.database)
+                      ? _vm._i(_vm.form.database, null) > -1
+                      : _vm.form.database
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.database,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "database", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "database",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "database", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Database")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("database")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("database"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.github,
+                        expression: "form.github"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.github)
+                        ? _vm._i(_vm.form.github, null) > -1
+                        : _vm.form.github
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.github,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "github", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "github",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "github", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Github")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("github")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("github"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline " },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.googleDeveloperConsole,
+                        expression: "form.googleDeveloperConsole"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.googleDeveloperConsole)
+                        ? _vm._i(_vm.form.googleDeveloperConsole, null) > -1
+                        : _vm.form.googleDeveloperConsole
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.googleDeveloperConsole,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleDeveloperConsole",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "googleDeveloperConsole",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "googleDeveloperConsole", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Google Developer Console")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("googleDeveloperConsole")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("googleDeveloperConsole")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.jira,
+                      expression: "form.jira"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.jira)
+                      ? _vm._i(_vm.form.jira, null) > -1
+                      : _vm.form.jira
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.jira,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "jira", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "jira",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "jira", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Jira")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("jira")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("jira"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.octopus,
+                        expression: "form.octopus"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.octopus)
+                        ? _vm._i(_vm.form.octopus, null) > -1
+                        : _vm.form.octopus
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.octopus,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "octopus", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "octopus",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "octopus", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Octopus")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("octopus")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("octopus"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.server,
+                      expression: "form.server"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.server)
+                      ? _vm._i(_vm.form.server, null) > -1
+                      : _vm.form.server
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.server,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "server", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "server",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "server", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Server")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("server")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("server"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.sendgrid,
+                        expression: "form.sendgrid"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.sendgrid)
+                        ? _vm._i(_vm.form.sendgrid, null) > -1
+                        : _vm.form.sendgrid
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.sendgrid,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "sendgrid", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "sendgrid",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "sendgrid", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Sendgrid")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("sendgrid")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("sendgrid"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.twilio,
+                        expression: "form.twilio"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.twilio)
+                        ? _vm._i(_vm.form.twilio, null) > -1
+                        : _vm.form.twilio
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.twilio,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "twilio", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "twilio",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "twilio", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Twilio")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("twilio")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("twilio"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            [
+              _c(
+                "h4",
+                { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
+                [_vm._v("Sales Channels")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-10" }, [
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.amazonBrandRegistry,
+                          expression: "form.amazonBrandRegistry"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.amazonBrandRegistry)
+                          ? _vm._i(_vm.form.amazonBrandRegistry, null) > -1
+                          : _vm.form.amazonBrandRegistry
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.amazonBrandRegistry,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "amazonBrandRegistry",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "amazonBrandRegistry",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "amazonBrandRegistry", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Amazon Brand Registry")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("amazonBrandRegistry")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.form.errors.get("amazonBrandRegistry")
+                            )
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check form-check-inline" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.amazonSellerCentral,
+                        expression: "form.amazonSellerCentral"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.amazonSellerCentral)
+                        ? _vm._i(_vm.form.amazonSellerCentral, null) > -1
+                        : _vm.form.amazonSellerCentral
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.amazonSellerCentral,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(
+                                _vm.form,
+                                "amazonSellerCentral",
+                                $$a.concat([$$v])
+                              )
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "amazonSellerCentral",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "amazonSellerCentral", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Amazon Seller Central")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("amazonSellerCentral")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(
+                            _vm.form.errors.get("amazonSellerCentral")
+                          )
+                        }
+                      })
+                    : _vm._e()
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.ebay,
+                          expression: "form.ebay"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.ebay)
+                          ? _vm._i(_vm.form.ebay, null) > -1
+                          : _vm.form.ebay
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.ebay,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(_vm.form, "ebay", $$a.concat([$$v]))
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "ebay",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "ebay", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Ebay")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("ebay")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("ebay"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.walmart,
+                          expression: "form.walmart"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.walmart)
+                          ? _vm._i(_vm.form.walmart, null) > -1
+                          : _vm.form.walmart
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.walmart,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(_vm.form, "walmart", $$a.concat([$$v]))
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "walmart",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "walmart", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Walmart")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("walmart")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("walmart"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-row justify-content-left py-2" }, [
+            _c("h4", { staticClass: "pr-3 col-2 font-weight-bold pl-2" }, [
+              _vm._v("Social Media")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-10" }, [
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.instagram,
+                        expression: "form.instagram"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.instagram)
+                        ? _vm._i(_vm.form.instagram, null) > -1
+                        : _vm.form.instagram
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.instagram,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "instagram", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "instagram",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "instagram", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Instagram")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("instagram")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("instagram"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-check form-check-inline" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.pinterest,
+                      expression: "form.pinterest"
+                    }
+                  ],
+                  staticClass: "form-check-input",
+                  attrs: { type: "checkbox" },
+                  domProps: {
+                    checked: Array.isArray(_vm.form.pinterest)
+                      ? _vm._i(_vm.form.pinterest, null) > -1
+                      : _vm.form.pinterest
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.form.pinterest,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(_vm.form, "pinterest", $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.form,
+                              "pinterest",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.form, "pinterest", $$c)
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { staticClass: "form-check-label" }, [
+                  _vm._v("Pinterest")
+                ]),
+                _vm._v(" "),
+                _vm.form.errors.has("pinterest")
+                  ? _c("div", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.form.errors.get("pinterest"))
+                      }
+                    })
+                  : _vm._e()
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.rakuten,
+                        expression: "form.rakuten"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.rakuten)
+                        ? _vm._i(_vm.form.rakuten, null) > -1
+                        : _vm.form.rakuten
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.rakuten,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "rakuten", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "rakuten",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "rakuten", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Rakuten")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("rakuten")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("rakuten"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.twitter,
+                        expression: "form.twitter"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.twitter)
+                        ? _vm._i(_vm.form.twitter, null) > -1
+                        : _vm.form.twitter
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.twitter,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "twitter", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "twitter",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "twitter", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("Twitter")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("twitter")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("twitter"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "column form-check form-check-inline" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.form.youtube,
+                        expression: "form.youtube"
+                      }
+                    ],
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox" },
+                    domProps: {
+                      checked: Array.isArray(_vm.form.youtube)
+                        ? _vm._i(_vm.form.youtube, null) > -1
+                        : _vm.form.youtube
+                    },
+                    on: {
+                      change: function($event) {
+                        var $$a = _vm.form.youtube,
+                          $$el = $event.target,
+                          $$c = $$el.checked ? true : false
+                        if (Array.isArray($$a)) {
+                          var $$v = null,
+                            $$i = _vm._i($$a, $$v)
+                          if ($$el.checked) {
+                            $$i < 0 &&
+                              _vm.$set(_vm.form, "youtube", $$a.concat([$$v]))
+                          } else {
+                            $$i > -1 &&
+                              _vm.$set(
+                                _vm.form,
+                                "youtube",
+                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                              )
+                          }
+                        } else {
+                          _vm.$set(_vm.form, "youtube", $$c)
+                        }
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v("YouTube")
+                  ]),
+                  _vm._v(" "),
+                  _vm.form.errors.has("youtube")
+                    ? _c("div", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.form.errors.get("youtube"))
+                        }
+                      })
+                    : _vm._e()
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            [
+              _c(
+                "h4",
+                { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
+                [_vm._v("Special")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-10" }, [
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.filevista,
+                          expression: "form.filevista"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.filevista)
+                          ? _vm._i(_vm.form.filevista, null) > -1
+                          : _vm.form.filevista
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.filevista,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "filevista",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "filevista",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "filevista", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Filevista")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("filevista")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("filevista"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.salesforce,
+                          expression: "form.salesforce"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.salesforce)
+                          ? _vm._i(_vm.form.salesforce, null) > -1
+                          : _vm.form.salesforce
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.salesforce,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "salesforce",
+                                  $$a.concat([$$v])
+                                )
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "salesforce",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "salesforce", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Salesforce")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("salesforce")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("salesforce"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "column form-check form-check-inline" },
+                  [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.form.upwork,
+                          expression: "form.upwork"
+                        }
+                      ],
+                      staticClass: "form-check-input",
+                      attrs: { type: "checkbox" },
+                      domProps: {
+                        checked: Array.isArray(_vm.form.upwork)
+                          ? _vm._i(_vm.form.upwork, null) > -1
+                          : _vm.form.upwork
+                      },
+                      on: {
+                        change: function($event) {
+                          var $$a = _vm.form.upwork,
+                            $$el = $event.target,
+                            $$c = $$el.checked ? true : false
+                          if (Array.isArray($$a)) {
+                            var $$v = null,
+                              $$i = _vm._i($$a, $$v)
+                            if ($$el.checked) {
+                              $$i < 0 &&
+                                _vm.$set(_vm.form, "upwork", $$a.concat([$$v]))
+                            } else {
+                              $$i > -1 &&
+                                _vm.$set(
+                                  _vm.form,
+                                  "upwork",
+                                  $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                                )
+                            }
+                          } else {
+                            _vm.$set(_vm.form, "upwork", $$c)
+                          }
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { staticClass: "form-check-label" }, [
+                      _vm._v("Upwork")
+                    ]),
+                    _vm._v(" "),
+                    _vm.form.errors.has("upwork")
+                      ? _c("div", {
+                          domProps: {
+                            innerHTML: _vm._s(_vm.form.errors.get("upwork"))
+                          }
+                        })
+                      : _vm._e()
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "form-row justify-content-center pt-2" }, [
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-primary ml-4 mb-4",
+                attrs: { type: "submit", disabled: _vm.formDisabled }
+              },
+              [_vm._v("Submit")]
+            )
+          ])
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -47460,244 +51893,28 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("h1", { staticClass: "text-center" }, [_vm._v("Dressbarn")]),
-    _vm._v(" "),
-    _c("h3", { staticClass: "text-center pt-3 mb-3 " }, [
-      _vm._v("Please Select All Platforms You Have Access Too")
-    ]),
-    _vm._v(" "),
-    _c(
-      "form",
-      {
-        on: {
-          submit: function($event) {
-            $event.preventDefault()
-            return _vm.uploadUsersPlatforms()
-          }
-        }
-      },
-      [
-        _c(
-          "div",
-          { staticClass: "form-row justify-content-left py-2 bg-info" },
-          [
-            _c(
-              "h4",
-              { staticClass: "pr-3 col-2 font-weight-bold text-dark pl-2" },
-              [_vm._v("All Staff")]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-10" }, [
-              _c(
-                "div",
-                { staticClass: "column form-check form-check-inline " },
-                [
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.form.onePassword,
-                        expression: "form.onePassword"
-                      }
-                    ],
-                    staticClass: "form-check-input",
-                    attrs: { type: "checkbox" },
-                    domProps: {
-                      checked: Array.isArray(_vm.form.onePassword)
-                        ? _vm._i(_vm.form.onePassword, null) > -1
-                        : _vm.form.onePassword
-                    },
-                    on: {
-                      change: function($event) {
-                        var $$a = _vm.form.onePassword,
-                          $$el = $event.target,
-                          $$c = $$el.checked ? true : false
-                        if (Array.isArray($$a)) {
-                          var $$v = null,
-                            $$i = _vm._i($$a, $$v)
-                          if ($$el.checked) {
-                            $$i < 0 &&
-                              _vm.$set(
-                                _vm.form,
-                                "onePassword",
-                                $$a.concat([$$v])
-                              )
-                          } else {
-                            $$i > -1 &&
-                              _vm.$set(
-                                _vm.form,
-                                "onePassword",
-                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
-                              )
-                          }
-                        } else {
-                          _vm.$set(_vm.form, "onePassword", $$c)
-                        }
-                      }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("label", { staticClass: "form-check-label" }, [
-                    _vm._v("1Password")
-                  ]),
-                  _vm._v(" "),
-                  _vm.form.errors.has("onePassword")
-                    ? _c("div", {
-                        domProps: {
-                          innerHTML: _vm._s(_vm.form.errors.get("onePassword"))
-                        }
-                      })
-                    : _vm._e()
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-check form-check-inline" }, [
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.form.dressbarnEmail,
-                      expression: "form.dressbarnEmail"
-                    }
-                  ],
-                  staticClass: "form-check-input",
-                  attrs: { type: "checkbox" },
-                  domProps: {
-                    checked: Array.isArray(_vm.form.dressbarnEmail)
-                      ? _vm._i(_vm.form.dressbarnEmail, null) > -1
-                      : _vm.form.dressbarnEmail
-                  },
-                  on: {
-                    change: function($event) {
-                      var $$a = _vm.form.dressbarnEmail,
-                        $$el = $event.target,
-                        $$c = $$el.checked ? true : false
-                      if (Array.isArray($$a)) {
-                        var $$v = null,
-                          $$i = _vm._i($$a, $$v)
-                        if ($$el.checked) {
-                          $$i < 0 &&
-                            _vm.$set(
-                              _vm.form,
-                              "dressbarnEmail",
-                              $$a.concat([$$v])
-                            )
-                        } else {
-                          $$i > -1 &&
-                            _vm.$set(
-                              _vm.form,
-                              "dressbarnEmail",
-                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
-                            )
-                        }
-                      } else {
-                        _vm.$set(_vm.form, "dressbarnEmail", $$c)
-                      }
-                    }
-                  }
-                }),
-                _vm._v(" "),
-                _c("label", { staticClass: "form-check-label" }, [
-                  _vm._v("Gmail Email")
-                ]),
-                _vm._v(" "),
-                _vm.form.errors.has("dressbarnEmail")
-                  ? _c("div", {
-                      domProps: {
-                        innerHTML: _vm._s(_vm.form.errors.get("dressbarnEmail"))
-                      }
-                    })
-                  : _vm._e()
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "column form-check form-check-inline" },
-                [
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.form.dressbarnSlack,
-                        expression: "form.dressbarnSlack"
-                      }
-                    ],
-                    staticClass: "form-check-input",
-                    attrs: { type: "checkbox" },
-                    domProps: {
-                      checked: Array.isArray(_vm.form.dressbarnSlack)
-                        ? _vm._i(_vm.form.dressbarnSlack, null) > -1
-                        : _vm.form.dressbarnSlack
-                    },
-                    on: {
-                      change: function($event) {
-                        var $$a = _vm.form.dressbarnSlack,
-                          $$el = $event.target,
-                          $$c = $$el.checked ? true : false
-                        if (Array.isArray($$a)) {
-                          var $$v = null,
-                            $$i = _vm._i($$a, $$v)
-                          if ($$el.checked) {
-                            $$i < 0 &&
-                              _vm.$set(
-                                _vm.form,
-                                "dressbarnSlack",
-                                $$a.concat([$$v])
-                              )
-                          } else {
-                            $$i > -1 &&
-                              _vm.$set(
-                                _vm.form,
-                                "dressbarnSlack",
-                                $$a.slice(0, $$i).concat($$a.slice($$i + 1))
-                              )
-                          }
-                        } else {
-                          _vm.$set(_vm.form, "dressbarnSlack", $$c)
-                        }
-                      }
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("label", { staticClass: "form-check-label" }, [
-                    _vm._v("Slack")
-                  ]),
-                  _vm._v(" "),
-                  _vm.form.errors.has("dressbarnSlack")
-                    ? _c("div", {
-                        domProps: {
-                          innerHTML: _vm._s(
-                            _vm.form.errors.get("dressbarnSlack")
-                          )
-                        }
-                      })
-                    : _vm._e()
-                ]
-              )
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _vm._m(0)
-      ]
-    )
-  ])
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("h3", { staticClass: "text-center pt-3 mb-3 " }, [
+        _vm._v("Please Select All Platforms You Have Access Too")
+      ]),
+      _vm._v(" "),
+      _c("platform-form", { attrs: { user: _vm.user, brand: "dressbarn" } })
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-row justify-content-center pt-2" }, [
-      _c(
-        "button",
-        { staticClass: "btn btn-primary mb-4", attrs: { type: "submit" } },
-        [_vm._v("Submit")]
-      )
+    return _c("div", { staticClass: "row" }, [
+      _c("h1", { staticClass: "text-center col-11" }, [_vm._v("Dressbarn")])
     ])
   }
 ]

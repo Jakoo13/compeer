@@ -14,6 +14,8 @@ import FranklinMintPlatforms from './components/platforms/FranklinMintPlatforms.
 import LinensNThingsPlatforms from './components/platforms/LinensNThingsPlatforms.vue';
 import Posts from './components/Posts.vue';
 
+
+
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -157,6 +159,7 @@ Vue.component('Users', require('./components/Users.vue').default);
 Vue.component('Platforms', require('./components/Platforms.vue').default);
 Vue.component('DressbarnPlatforms', require('./components/platforms/DressbarnPlatforms.vue').default);
 Vue.component('Posts', require('./components/Posts.vue').default);
+//Vue.component('PlatformsForm', require('./components/PlatformsForm.vue').default);
 
 
 /**
