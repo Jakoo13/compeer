@@ -185,7 +185,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div>
 
       <!-- Sidebar Menu -->
-      <nav class="mt-2">
+      <nav class="mt-2" style="">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
@@ -264,7 +264,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <div class="content-wrapper">
 
     <!-- Main content -->
-    <div class="content">
+    <div class="content" style="padding-top:20px">
       <div class="container-fluid">
 @if (Auth::check())
         <router-view :user="{{Auth::user()}}"></router-view>
