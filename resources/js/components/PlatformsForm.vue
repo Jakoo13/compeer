@@ -12,14 +12,14 @@
                         <div v-if="form.errors.has('onePassword')" v-html="form.errors.get('onePassword')" />
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" v-model="form.dressbarnEmail" >
-                        <label class="form-check-label" >Gmail Email</label>
-                        <div v-if="form.errors.has('dressbarnEmail')" v-html="form.errors.get('dressbarnEmail')" />
+                        <input class="form-check-input" type="checkbox" v-model="form.email" >
+                        <label class="form-check-label" >{{this.brand}} Email</label>
+                        <div v-if="form.errors.has('email')" v-html="form.errors.get('email')" />
                     </div>
                     <div class="column form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" v-model="form.dressbarnSlack">
+                        <input class="form-check-input" type="checkbox" v-model="form.slack">
                         <label class="form-check-label" >Slack</label>
-                        <div v-if="form.errors.has('dressbarnSlack')" v-html="form.errors.get('dressbarnSlack')" />
+                        <div v-if="form.errors.has('slack')" v-html="form.errors.get('slack')" />
                     </div>
                 </div>
             </div>
@@ -178,9 +178,9 @@
                         <div v-if="form.errors.has('taboola')" v-html="form.errors.get('taboola')" />
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" v-model="form.tagboxx" >
+                        <input class="form-check-input" type="checkbox" v-model="form.taggbox" >
                         <label class="form-check-label" >Taggbox</label>
-                        <div v-if="form.errors.has('tagboxx')" v-html="form.errors.get('tagboxx')" />
+                        <div v-if="form.errors.has('taggbox')" v-html="form.errors.get('taggbox')" />
                     </div>
                     <div class="column form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" v-model="form.tapcart">
@@ -373,7 +373,7 @@
                         <div v-if="form.errors.has('salesforce')" v-html="form.errors.get('salesforce')" />
                     </div>
                     <div class="column form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" v-model="form.upwork">
+                        <input class="form-check-input" type="checkbox" v-model="form.upwork" :disabled="formDisabled">
                         <label class="form-check-label" >Upwork</label>
                         <div v-if="form.errors.has('upwork')" v-html="form.errors.get('upwork')" />
                     </div>
@@ -401,8 +401,8 @@ export default {
             form: new Form({
               id: '',
               onePassword: '',
-              dressbarnEmail: '',
-              dressbarnSlack: '',
+              email: '',
+              slack: '',
               divy: '',
               paycom: '',
               quadpay: '',
@@ -471,7 +471,6 @@ export default {
     created(){
           console.log(this.brand);
           this.loadUsersPlatforms();
-          console.log(this.form.errors);
     },
     watch: {
         
@@ -485,8 +484,8 @@ export default {
             .then((data)=>{
                 this.form.id = data.data.id;
                 this.form.onePassword = data.data.onePassword;
-                this.form.dressbarnEmail = data.data.dressbarnEmail;
-                this.form.dressbarnSlack = data.data.dressbarnSlack;
+                this.form.email = data.data.email;
+                this.form.slack = data.data.slack;
                 this.form.divvy = data.data.divvy;
                 this.form.paycom = data.data.paycom;
                 this.form.quadpay = data.data.quadpay;
@@ -561,6 +560,8 @@ export default {
         uploadUsersPlatforms(){
             if(this.editMode == false){
                 this.$Progress.start();
+                this.formDisabled = true;
+                this.isDisplayed = true;
                 this.form.post('/api/platform/'+ this.brand +'/' + this.user.id)
                 .then(()=>{
                 //Fire.$emit('afterUserCreated');
@@ -581,6 +582,7 @@ export default {
                 });
             } else {
                 this.$Progress.start();
+                this.formDisabled = true;
                 this.form.put('/api/platform/'+ this.brand +'/' + this.user.id)
                 .then(()=>{
                 console.log("put sent");
