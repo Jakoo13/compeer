@@ -4,11 +4,11 @@ namespace App\Http\Controllers\API;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\DressbarnPlatforms;
+use App\Models\Pier1Platforms;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
-class DressbarnPlatformsController extends Controller
+class Pier1PlatformsController extends Controller
 {
     public function index()
     {
@@ -17,7 +17,7 @@ class DressbarnPlatformsController extends Controller
  
     public function show($id)
     {
-        return DressbarnPlatforms::find($id);
+        return Pier1Platforms::find($id);
     }
     
 	public function store(Request $request, $id)
@@ -25,7 +25,7 @@ class DressbarnPlatformsController extends Controller
         $user=User::find($id);
         
 
-        return DressbarnPlatforms::create([
+        return Pier1Platforms::create([
             'id' => $user->id,
             'onePassword' => $request['onePassword'],
             'email' => $request['email'],
@@ -96,13 +96,13 @@ class DressbarnPlatformsController extends Controller
 
 	public function update(Request $request, $id)
     {
-        $platform = DressbarnPlatforms::findOrFail($id);
+        $platform = Pier1Platforms::findOrFail($id);
         $platform->update($request->all());
 	    return $platform;
     }
 	public function delete(Request $request, $id)
     {
-        $platform = DressbarnPlatforms::findOrFail($id);
+        $platform = Pier1Platforms::findOrFail($id);
         $platform->delete();
 	    return 204;
     }

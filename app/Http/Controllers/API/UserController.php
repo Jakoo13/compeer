@@ -103,8 +103,9 @@ class UserController extends Controller
 
             //delete the previous photo of the user
             $userPreviousPhoto = public_path('img/profile/').$currentPhoto;
-            if(file_exists($userPreviousPhoto)){
-                @unlink($userPreviousPhoto);
+            $defaultPhoto = public_path('img/profile/user.png');
+            if(file_exists($userPreviousPhoto) && ($userPreviousPhoto !== $defaultPhoto)){
+                    @unlink($userPreviousPhoto);
             }
         }
 
