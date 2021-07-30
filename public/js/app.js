@@ -45060,7 +45060,10 @@ var render = function() {
         _c("fieldset", { attrs: { disabled: _vm.formDisabled } }, [
           _c(
             "div",
-            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            {
+              staticClass: "form-row justify-content-left py-2 ",
+              staticStyle: { "background-color": "rgba(143, 143, 160, 0.308)" }
+            },
             [
               _c(
                 "h4",
@@ -45620,7 +45623,10 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            {
+              staticClass: "form-row justify-content-left py-2 ",
+              staticStyle: { "background-color": "rgba(143, 143, 160, 0.308)" }
+            },
             [
               _c(
                 "h4",
@@ -46280,7 +46286,10 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            {
+              staticClass: "form-row justify-content-left py-2 ",
+              staticStyle: { "background-color": "rgba(143, 143, 160, 0.308)" }
+            },
             [
               _c(
                 "h4",
@@ -47034,7 +47043,10 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            {
+              staticClass: "form-row justify-content-left py-2 ",
+              staticStyle: { "background-color": "rgba(143, 143, 160, 0.308)" }
+            },
             [
               _c(
                 "h4",
@@ -48312,7 +48324,10 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            {
+              staticClass: "form-row justify-content-left py-2 ",
+              staticStyle: { "background-color": "rgba(143, 143, 160, 0.308)" }
+            },
             [
               _c(
                 "h4",
@@ -48878,7 +48893,10 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "form-row justify-content-left py-2 bg-info" },
+            {
+              staticClass: "form-row justify-content-left py-2 ",
+              staticStyle: { "background-color": "rgba(143, 143, 160, 0.308)" }
+            },
             [
               _c(
                 "h4",

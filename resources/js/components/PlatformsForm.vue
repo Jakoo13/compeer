@@ -3,7 +3,7 @@
         <button type="button" @click="editPlatforms" class="col-1btn btn-danger px-4 my-2" :style='{"display": (isDisplayed?"block" : "none")}'>Edit</button>
         <form @submit.prevent="uploadUsersPlatforms()" >
         <fieldset :disabled="formDisabled">
-            <div class="form-row justify-content-left py-2 bg-info">
+            <div class="form-row justify-content-left py-2 " style="background-color:rgba(143, 143, 160, 0.308);">
                 <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">All Staff</h4>
                 <div class="col-10">
                     <div class="column form-check form-check-inline ">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row justify-content-left py-2 bg-info">
+            <div class="form-row justify-content-left py-2 " style="background-color:rgba(143, 143, 160, 0.308);">
                 <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">Facebook</h4>
                 <div class="col=10">
                     <div class="form-check form-check-inline">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row justify-content-left py-2 bg-info">
+            <div class="form-row justify-content-left py-2 " style="background-color:rgba(143, 143, 160, 0.308);">
                 <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">Microsoft</h4>
                 <div class="col-10">
                     <div class="column form-check form-check-inline ">
@@ -189,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row justify-content-left py-2 bg-info">
+            <div class="form-row justify-content-left py-2 " style="background-color:rgba(143, 143, 160, 0.308);">
                 <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">Operations</h4>
                 <div class="col-10">
                     <div class="column form-check form-check-inline ">
@@ -304,7 +304,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row justify-content-left py-2 bg-info">
+            <div class="form-row justify-content-left py-2 " style="background-color:rgba(143, 143, 160, 0.308);">
                 <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">Sales Channels</h4>
                 <div class="col-10">
                     <div class="column form-check form-check-inline">
@@ -359,7 +359,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-row justify-content-left py-2 bg-info">
+            <div class="form-row justify-content-left py-2 " style="background-color:rgba(143, 143, 160, 0.308);">
                 <h4 class="pr-3 col-2 font-weight-bold text-dark pl-2">Special</h4>
                 <div class="col-10">
                     <div class="column form-check form-check-inline">
