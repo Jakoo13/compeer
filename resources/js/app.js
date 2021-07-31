@@ -13,6 +13,7 @@ import FarmersCartPlatforms from './components/platforms/FarmersCartPlatforms.vu
 import FranklinMintPlatforms from './components/platforms/FranklinMintPlatforms.vue';
 import LinensNThingsPlatforms from './components/platforms/LinensNThingsPlatforms.vue';
 import Posts from './components/Posts.vue';
+import userAccesses from './components/userAccesses.vue';
 
 
 
@@ -75,7 +76,15 @@ Vue.use(VueRouter);
 const routes = [
     { path: '/dashboard', component: Dashboard },
     { path: '/profile', component: Profile },
-    { path: '/users', component: Users },
+    { 
+      path: '/users', 
+      component: Users,
+      children: [
+        {
+          path: 'id', name:'userAccesses', component: userAccesses
+        }
+      ] 
+    },
     { 
       path: '/platforms', 
       component: Platforms, 
@@ -124,7 +133,8 @@ const routes = [
         }
       ]
     },
-    { path: '/posts', component: Posts }
+    { path: '/posts', component: Posts },
+    
 ]
 
 const router = new VueRouter({
@@ -160,6 +170,7 @@ Vue.component('Platforms', require('./components/Platforms.vue').default);
 Vue.component('DressbarnPlatforms', require('./components/platforms/DressbarnPlatforms.vue').default);
 Vue.component('Posts', require('./components/Posts.vue').default);
 //Vue.component('PlatformsForm', require('./components/PlatformsForm.vue').default);
+Vue.component('userAccesses', require('./components/userAccesses.vue').default)
 
 
 /**

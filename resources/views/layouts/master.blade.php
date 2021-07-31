@@ -268,7 +268,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content" style="padding-top:20px">
       <div class="container-fluid">
 @if (Auth::check())
-        <router-view :user="{{Auth::user()}}"></router-view>
+        <router-view  :user="{{Auth::user()}}"></router-view>
         <vue-progress-bar></vue-progress-bar>
 @else
         <router-view :user="false""></router-view>
