@@ -25,7 +25,7 @@
                   </thead>
                   <tbody>
                     <tr v-for="user in users" :key="user.id">
-                      <td>{{ user.id }}</td>
+                      <router-link to="/users/2"><td>{{ user.id }}</td></router-link>
                       <td>{{ user.name | upText }}</td>
                       <td>{{ user.email }}</td>
                       <td>{{ user.team | upText }}</td>

@@ -22,6 +22,7 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    //GET api/user
     public function index()
     {
         return User::latest()->paginate(10);
@@ -34,6 +35,8 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+
+     //Post api/user
     public function store(Request $request)
     {
 
@@ -59,6 +62,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    // GET api/user/{id}
     public function show($id)
     {
         //

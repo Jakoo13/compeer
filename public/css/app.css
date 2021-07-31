@@ -65,25 +65,6 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block;
 }
 
-.loginText{
-  color: rgba(0, 0, 0, 0.76);
-}
-
-.customNav{
-  background-color: rgba(133, 133, 133, 0.308);
-}
-
-.customCardHeader{
-  background-color: rgba(143, 143, 160, 0.308);
-}
-
-.customFormInput input {
-  background-color: rgb(212, 210, 231);
-}
-.customFormInput input:active {
-  background-color: rgb(212, 210, 231);
-}
-
 body {
   margin: 0;
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -19310,7 +19291,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: rgb(57, 57, 70);
+  background-color: #f8fafc;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -23591,7 +23572,7 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(143, 143, 160, 0.308);
+  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;

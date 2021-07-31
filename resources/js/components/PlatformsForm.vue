@@ -13,7 +13,7 @@
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" v-model="form.email" >
-                        <label class="form-check-label" >{{this.brand}} Email</label>
+                        <label class="form-check-label" >{{this.brand | upText }} Email</label>
                         <div v-if="form.errors.has('email')" v-html="form.errors.get('email')" />
                     </div>
                     <div class="column form-check form-check-inline">
