@@ -1,0 +1,18 @@
+.loginText{
+    color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .customNav{
+    background-color: rgba(133, 133, 133, 0.308);
+  }
+  
+  .customCardHeader{
+    background-color: rgba(143, 143, 160, 0.308);
+  }
+  
+  .customFormInput input {
+    background-color: rgb(212, 210, 231);
+  }
+  .customFormInput input:active {
+    background-color: rgb(212, 210, 231);
+  }
