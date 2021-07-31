@@ -8,22 +8,22 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Compeer</title>
-
+    <link href="/css/custom.css">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body >
     <div id="app">
         <div class="customNav">
         <nav class="navbar navbar-expand-md navbar-light  shadow-sm">
-            <div class="container">
+            <div class="container" >
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{-- {{ config('app.name', 'Laravel') }} --}}
                     <img src="../img/Compeer1.png" alt="Compeer Logo" class="brand-image img-rounded " style="opacity: .8">
@@ -78,7 +78,7 @@
         </nav>
         </div>
 
-        <main class="py-4">
+        <main class="py-4" >
             @yield('content')
         </main>
     </div>

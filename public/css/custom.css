@@ -4,6 +4,11 @@
   
   .customNav{
     background-color: rgba(133, 133, 133, 0.308);
+    
+  }
+
+  .navbar-brand img {
+      height: 30px;
   }
   
   .customCardHeader{

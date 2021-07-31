@@ -609,6 +609,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .form-check-input {
+        background-color: blue;
+        background: black;
+    }
 </style>

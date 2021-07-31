@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="platforms">
         <nav class="nav nav-pills nav-fill nav-tabs"  role="tablist">
             <router-link to="/platforms/dressbarn" class="nav-item nav-link active" role="tab" data-toggle="tab" aria-controls="dressbarn" aria-select="true">Dressbarn</router-link>
             <router-link to="/platforms/pier1" class="nav-item nav-link" role="tab" data-toggle="tab" aria-controls="pier1" aria-select="true">Pier 1</router-link>
@@ -26,6 +26,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    
 </style>
