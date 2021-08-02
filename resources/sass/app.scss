@@ -23,3 +23,59 @@ $fa-font-path:        "../webfonts";
     background-color: #3f51b5;
     color: #fff !important;
 }
+
+  
+  .content-wrapper {
+    background-color: rgba(133, 133, 133, 0.308);
+  }
+  
+  .main-footer {
+    background-color: rgba(143, 143, 160, 0.548);
+    border-top: 1px solid #6b6b6b;
+  }
+
+  .main-header {
+      border-bottom:rgba(143, 143, 160, 0.733)
+  }
+  
+  .nav-pills .nav-link {
+    color: #eeff58b6;
+  }
+  
+  .navbar-white {
+    background-color: rgba(143, 143, 160, 0.733);
+  }
+  
+  body {
+    background-color: #393946;
+    color: #16191b;
+  }
+  
+  .form-control {
+    background-color: #d4d2e7;
+  }
+  
+  .form-control:focus {
+    background-color: #ececec;
+  }
+  
+  .form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {
+    color: rgba(161, 175, 187, 0.396);
+  }
+  
+  .nav-tabs .nav-link {
+    margin-bottom: 2px;
+    border: 1px solid black;
+  }
+  
+  .card-header {
+    background-color: rgba(143, 143, 160, 0.308);
+  }
+  
+.card {
+    background-color:rgba(126, 123, 123, 0.623);
+}
+
+a {
+    color: rgb(72, 70, 226);
+}
