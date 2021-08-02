@@ -23,7 +23,9 @@
                       <th>Modify</th>
                     </tr>
                   </thead>
+                  
                   <tbody>
+                    
                     <tr v-for="user in users" :key="user.id">
                       <router-link to="/users/2"><td>{{ user.id }}</td></router-link>
                       <td>{{ user.name | upText }}</td>
@@ -36,7 +38,9 @@
                           <a href="#" @click="deleteUser(user.id)"><i class="fa fa-trash red"></i></a>
                       </td>
                     </tr>
+                    
                   </tbody>
+                 
                 </table>
               </div>
               <!-- /.card-body -->
